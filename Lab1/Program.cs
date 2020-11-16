@@ -1,4 +1,22 @@
-﻿using System;
+﻿/// Lab No. 11 Exercise No.1
+/// File Name:     Lab11.cs
+/// @author:       Jacques Zwielich
+/// Date:          Nov. 15, 2020
+///
+/// Problem Statement: Create  phone lookup program
+///    
+/// Overall Plan:
+/// 1. Create a dictionary
+/// 2. Print a menu giving 4 choices
+/// 3. Take user input 
+/// 4. compare that user input to the 4 choices 
+/// 5. if its input 1 we get the name and number and add it to the dictionary
+/// 6. if its input 2 we look for the number and remove it if it exists
+/// 7. if its input 3 we print the number associated with the entered name, if it exists
+/// 8. if its 4 we exit the program
+///
+
+using System;
 using System.Collections.Generic;
 
 namespace Lab1
